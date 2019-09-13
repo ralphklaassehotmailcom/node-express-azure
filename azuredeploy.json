@@ -10,7 +10,7 @@
             }
         },
         "app_svc_plan_name": {
-            "defaultValue": "appserviceplan_ralph001",
+            "defaultValue": "appserviceplanralph001",
             "type": "String",
             "metadata": {
                 "description": "The name of your app service plan."
@@ -33,7 +33,7 @@
             "location": "[resourceGroup().location]",
             "scale": null,
             "properties": {
-                "name": "[parameters('site_host_prop_ralph001')]",
+                "name": "[parameters('ralph001')]",
                 "workerTierName": null,
                 "adminSiteName": null,
                 "hostingEnvironmentProfile": null,
