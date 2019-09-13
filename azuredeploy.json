@@ -28,12 +28,12 @@
                 "capacity": 1
             },
             "kind": "linux",
-            "name": "[parameters('app_svc_plan_name_ralph001')]",
+            "name": "[parameters('site_host_par_ralph001')]",
             "apiVersion": "2016-09-01",
             "location": "[resourceGroup().location]",
             "scale": null,
             "properties": {
-                "name": "[parameters('app_svc_plan_name_ralph001')]",
+                "name": "[parameters('site_host_prop_ralph001')]",
                 "workerTierName": null,
                 "adminSiteName": null,
                 "hostingEnvironmentProfile": null,
