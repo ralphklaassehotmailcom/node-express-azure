@@ -28,7 +28,7 @@
                 "capacity": 1
             },
             "kind": "linux",
-            "name": "[parameters('sitehostralph001')]",
+            "name": "[parameters('ralph001')]",
             "apiVersion": "2016-09-01",
             "location": "[resourceGroup().location]",
             "scale": null,
